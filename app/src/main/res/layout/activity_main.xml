@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享文本"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_share_one_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享单张图片"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_share_mult_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享多张图片"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_share_to_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到qq"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_share_one_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享单个文件"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
